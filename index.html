@@ -1,0 +1,54 @@
+<html>
+<head>
+  <title>
+    Forms
+  </title>
+</head>
+
+<body>
+  <h1>Anime u r intrested</h1>
+
+      <section id="anime-form">
+        <h2>Place order</h2>
+        <form method="post" action="anime.php">
+          <h4>Delivery</h4>
+          <input name="delivery" type="radio" value="delivery"/>Delivery<br/>
+          <input name="delivery" type="radio" value="pickup"/>Pickup<br/>
+
+
+          <h4>address</h4>
+          <input name="Address1" placeholder="Address line 1" class="lg-input"/> <br />
+          <input name="pin code" placeholder="pin code" class="sm-input"/><br />
+          <input name="state" placeholder="State" class="lg-inut"/>
+          <input name="place" placeholder="place" class="sm-input"/>
+          <br />
+          <br />
+
+          <h4>Season</h4>
+          <select name="Season">
+            <option value="01">01-$25.11</option>
+            <option value="02">02-$30.99</option>
+            <option value="03">03-$40.98</option>
+
+          </select>
+
+
+          <h4>Anime list</h4>
+          <input name="anime" value="demon slayer" type="checkbox"/>Demon Slayer<br />
+          <input name="anime" value="naruto " type="checkbox"/>Naruto<br/>
+          <input name="anime" value="Bleach" type="checkbox"/>Bleach<br/>
+          <input name="anime" value="Rising Sheild Hero" type="checkbox"/>Rising Shield Hero<br/>
+
+          <br /><br />
+
+          <iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/YHP9IOkhRis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p align="center">Preview</p>
+
+
+
+            <button type="submit">Place Order</button>
+        </form>
+      </section>
+
+</html>
